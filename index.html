@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEMO | Everyday Finds</title>
+    <meta name="description"
+          content="Shop quality products at NEMO. Explore our collection and get in touch with us.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">NEMO<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO NEMO</p>
+
+                <h1>Good finds.<br>
+                    <span>Everyday value.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Shopping should be simple. Explore our collection
+                    and find products that suit your needs and budget.
+                </p>
+
+                <a href="#products" class="button">
+                    Explore products <span>→</span>
+                </a>
+
+                <p class="small-note">
+                    Quality products. Friendly service. Simple shopping.
+                </p>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=1100&q=85"
+                    alt="Warm, carefully arranged home products">
+                <div class="image-caption">
+                    <span>THE NEMO COLLECTION</span>
+                    <p>Little things that make a difference.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why shop with us -->
+        <section class="benefits">
+            <div>
+                <span class="benefit-icon">✓</span>
+                <div>
+                    <h3>Quality first</h3>
+                    <p>Products chosen with care.</p>
+                </div>
+            </div>
+
+            <div>
+                <span class="benefit-icon">♡</span>
+                <div>
+                    <h3>People matter</h3>
+                    <p>We value every customer.</p>
+                </div>
+            </div>
+
+            <div>
+                <span class="benefit-icon">↗</span>
+                <div>
+                    <h3>Easy enquiries</h3>
+                    <p>Ask us before you buy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us -->
+        <section class="about section" id="about">
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=85"
+                    alt="Shop interior">
+            </div>
+
+            <div class="about-content">
+                <p class="eyebrow">A LITTLE ABOUT US</p>
+                <h2>We're here to make shopping easier.</h2>
+
+                <p>
+                    NEMO is a product business built around a simple idea:
+                    finding what you need shouldn't be complicated.
+                </p>
+
+                <p>
+                    We aim to offer useful products, fair prices and
+                    friendly service. Whether you already know what
+                    you're looking for or need a little help choosing,
+                    we're happy to hear from you.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Get to know us <span>→</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="products section" id="products">
+            <div class="section-top">
+                <div>
+                    <p class="eyebrow">TAKE A LOOK AROUND</p>
+                    <h2>Some of our favourites.</h2>
+                    <p>Browse the collection and ask us about anything you like.</p>
+                </div>
+
+                <span class="product-count" id="productCount">
+                    4 products
+                </span>
+            </div>
+
+            <div class="search-box">
+                <span>⌕</span>
+                <input type="search" id="searchInput"
+                       placeholder="Looking for something?"
+                       aria-label="Search products">
+            </div>
+
+            <div class="product-grid" id="productGrid">
+
+                <article class="product-card">
+                    <div class="product-photo">
+                        <img
+                            src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85"
+                            alt="Wireless headphones">
+                    </div>
+                    <div class="product-details">
+                        <p class="category">ELECTRONICS</p>
+                        <h3>Wireless Headphones</h3>
+                        <p class="product-description">
+                            For music, videos and everyday listening.
+                        </p>
+                        <div class="product-bottom">
+                            <span class="price">UGX 70,000</span>
+                            <button class="enquire-btn"
+                                    data-product="Wireless Headphones">
+                                Enquire →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-photo">
+                        <img
+                            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85"
+                            alt="Wristwatch">
+                    </div>
+                    <div class="product-details">
+                        <p class="category">ACCESSORIES</p>
+                        <h3>Classic Wristwatch</h3>
+                        <p class="product-description">
+                            A simple accessory for everyday wear.
+                        </p>
+                        <div class="product-bottom">
+                            <span class="price">UGX 60,000</span>
+                            <button class="enquire-btn"
+                                    data-product="Classic Wristwatch">
+                                Enquire →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-photo">
+                        <img
+                            src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=85"
+                            alt="Everyday backpack">
+                    </div>
+                    <div class="product-details">
+                        <p class="category">BAGS</p>
+                        <h3>Everyday Backpack</h3>
+                        <p class="product-description">
+                            A handy companion for work or school.
+                        </p>
+                        <div class="product-bottom">
+                            <span class="price">UGX 95,000</span>
+                            <button class="enquire-btn"
+                                    data-product="Everyday Backpack">
+                                Enquire →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-photo">
+                        <img
+                            src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=85"
+                            alt="Table lamp">
+                    </div>
+                    <div class="product-details">
+                        <p class="category">HOME</p>
+                        <h3>Table Lamp</h3>
+                        <p class="product-description">
+                            A warm touch for your living space.
+                        </p>
+                        <div class="product-bottom">
+                            <span class="price">UGX 45,000</span>
+                            <button class="enquire-btn"
+                                    data-product="Table Lamp">
+                                Enquire →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="empty-message" id="noResults" hidden>
+                We couldn't find that item. Try another search.
+            </p>
+
+            <p class="price-note">
+                Note: These are example products and prices.
+                Update them to match your actual stock.
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <div class="contact-copy">
+                <p class="eyebrow">LET'S TALK</p>
+                <h2>Need a hand? We're listening.</h2>
+
+                <p>
+                    Want to check a price, ask about a product
+                    or find out what's available? Send us a message.
+                </p>
+
+                <div class="contact-detail">
+                    <span>☎</span>
+                    <div>
+                        <strong>Call or WhatsApp</strong>
+                        <p>+256 750241167</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <span>✉</span>
+                    <div>
+                        <strong>Email</strong>
+                        <p>katereggajohnmary@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <span>⌖</span>
+                    <div>
+                        <strong>Location</strong>
+                        <p>Uganda</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <h3>Send us a message</h3>
+                <p>Fill in the details below to start an enquiry.</p>
+
+                <label for="name">Your name</label>
+                <input type="text" id="name"
+                       placeholder="e.g. John"
+                       required>
+
+                <label for="email">Email address</label>
+                <input type="email" id="email"
+                       placeholder="you@example.com"
+                       required>
+
+                <label for="message">How can we help?</label>
+                <textarea id="message" rows="4"
+                          placeholder="Tell us what you need..."
+                          required></textarea>
+
+                <button class="button submit-button" type="submit">
+                    Send via WhatsApp →
+                </button>
+
+                <p id="formStatus" role="status"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">NEMO<span>.</span></a>
+        <p>Thanks for stopping by. We hope to hear from you.</p>
+        <p class="copyright">
+            © <span id="year"></span> NEMO. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
